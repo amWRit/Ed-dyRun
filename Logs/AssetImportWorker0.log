@@ -81,3 +81,1140 @@ Received Import Request.
 Start importing Assets/Scripts/GameManager.cs using Guid(a4bb058e97b29664c99b1fa7b60b3ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c92c49449504cb05b312af60959e22b') in 0.061116 seconds
   Import took 0.065033 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 439.559575 seconds.
+  path: Assets/Scripts/MoveEnemy.cs
+  artifactKey: Guid(296b31ff254dc7f45a7ce928023f34a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MoveEnemy.cs using Guid(296b31ff254dc7f45a7ce928023f34a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f5228053aec06f717146e6465e3c5d1') in 0.032550 seconds
+  Import took 0.045958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Scripts/SpawnManager.cs
+  artifactKey: Guid(599740c7b43c9044aaa8af22e5d08632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SpawnManager.cs using Guid(599740c7b43c9044aaa8af22e5d08632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3e363e7b6069d6f11686d6277bf51b6') in 0.013862 seconds
+  Import took 0.019533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(d3026c908ce277447925cb7a06c9df20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(d3026c908ce277447925cb7a06c9df20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2416ee1425ee02f03c44e22536beae81') in 0.010915 seconds
+  Import took 0.014498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Scripts/MoveLeft.cs
+  artifactKey: Guid(b2f6715707b3fcf4c93c5a2141af0fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MoveLeft.cs using Guid(b2f6715707b3fcf4c93c5a2141af0fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79a024e3b8ed21f9388c1bfd6fd91e13') in 0.008247 seconds
+  Import took 0.012502 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2020.2.0b7/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001983 seconds.
+Symbol file LoadedFromMemory doesn't match image C:\My-Documents\GamewithLOVE2D\cs50x_assignments\amWRit\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 39.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.301 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000810 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\My-Documents\GamewithLOVE2D\cs50x_assignments\amWRit\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.983 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 38.1 MB.
+System memory in use after: 38.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1554.
+Total: 3.098600 ms (FindLiveObjects: 0.363900 ms CreateObjectMapping: 0.073200 ms MarkObjects: 2.542800 ms  DeleteObjects: 0.116600 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2020.2.0b7/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001900 seconds.
+Symbol file LoadedFromMemory doesn't match image C:\My-Documents\GamewithLOVE2D\cs50x_assignments\amWRit\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 32.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.070 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000858 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\My-Documents\GamewithLOVE2D\cs50x_assignments\amWRit\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.040 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 38.3 MB.
+System memory in use after: 38.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1558.
+Total: 3.370800 ms (FindLiveObjects: 0.465300 ms CreateObjectMapping: 0.121400 ms MarkObjects: 2.707300 ms  DeleteObjects: 0.074700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 100.560268 seconds.
+  path: Assets/Scripts/GameManagerX.cs
+  artifactKey: Guid(2f44a997651ff1249afcd5e01d4ed0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManagerX.cs using Guid(2f44a997651ff1249afcd5e01d4ed0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c99b360515ec16ae0409103deb1649a6') in 0.014005 seconds
+  Import took 0.021844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021376 seconds.
+  path: Assets/Scripts/GameManagerX.cs
+  artifactKey: Guid(2f44a997651ff1249afcd5e01d4ed0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManagerX.cs using Guid(2f44a997651ff1249afcd5e01d4ed0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c99b360515ec16ae0409103deb1649a6') in 0.008186 seconds
+  Import took 0.012865 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2020.2.0b7/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001920 seconds.
+Symbol file LoadedFromMemory doesn't match image C:\My-Documents\GamewithLOVE2D\cs50x_assignments\amWRit\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 39.02 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.301 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000906 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\My-Documents\GamewithLOVE2D\cs50x_assignments\amWRit\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.070 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 38.6 MB.
+System memory in use after: 38.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1563.
+Total: 3.066600 ms (FindLiveObjects: 0.390100 ms CreateObjectMapping: 0.071400 ms MarkObjects: 2.528800 ms  DeleteObjects: 0.074400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 91.133473 seconds.
+  path: Assets/Scripts/SpawnManager.cs
+  artifactKey: Guid(599740c7b43c9044aaa8af22e5d08632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SpawnManager.cs using Guid(599740c7b43c9044aaa8af22e5d08632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21727381b326af2247a4bd622cb1d5ab') in 0.007888 seconds
+  Import took 0.012395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 292.606357 seconds.
+  path: Assets/Scripts/GameManagerX.cs
+  artifactKey: Guid(2f44a997651ff1249afcd5e01d4ed0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManagerX.cs using Guid(2f44a997651ff1249afcd5e01d4ed0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f5f2df04b28186635c666a96565183e') in 0.030425 seconds
+  Import took 0.034023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.092408 seconds.
+  path: Assets/Scripts/GameManagerX.cs
+  artifactKey: Guid(2f44a997651ff1249afcd5e01d4ed0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManagerX.cs using Guid(2f44a997651ff1249afcd5e01d4ed0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f5f2df04b28186635c666a96565183e') in 0.007210 seconds
+  Import took 0.011169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Scripts/SpawnManager.cs
+  artifactKey: Guid(599740c7b43c9044aaa8af22e5d08632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SpawnManager.cs using Guid(599740c7b43c9044aaa8af22e5d08632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94cdeb7e107d6fa9f44491b96c60eed3') in 0.007317 seconds
+  Import took 0.011510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Scripts/MoveEnemy.cs
+  artifactKey: Guid(296b31ff254dc7f45a7ce928023f34a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MoveEnemy.cs using Guid(296b31ff254dc7f45a7ce928023f34a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '256cbff8cab07e2a484591327cce8036') in 0.007656 seconds
+  Import took 0.012738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(d3026c908ce277447925cb7a06c9df20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(d3026c908ce277447925cb7a06c9df20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d3a8f7a2eb920de5abe2ec184999b2') in 0.010631 seconds
+  Import took 0.016195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Scripts/MoveLeft.cs
+  artifactKey: Guid(b2f6715707b3fcf4c93c5a2141af0fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MoveLeft.cs using Guid(b2f6715707b3fcf4c93c5a2141af0fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e448ec84a740c444d18a2da5d4f9c7d2') in 0.011127 seconds
+  Import took 0.015521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003257 seconds.
+  path: Assets/Scripts/MoveEnemy.cs
+  artifactKey: Guid(296b31ff254dc7f45a7ce928023f34a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MoveEnemy.cs using Guid(296b31ff254dc7f45a7ce928023f34a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '256cbff8cab07e2a484591327cce8036') in 0.011157 seconds
+  Import took 0.017730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.758522 seconds.
+  path: Assets/Scripts/GameManagerX.cs
+  artifactKey: Guid(2f44a997651ff1249afcd5e01d4ed0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManagerX.cs using Guid(2f44a997651ff1249afcd5e01d4ed0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd94ee3f4dced46f4297e01140b7d6d86') in 0.011405 seconds
+  Import took 0.016674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050415 seconds.
+  path: Assets/Scripts/GameManagerX.cs
+  artifactKey: Guid(2f44a997651ff1249afcd5e01d4ed0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManagerX.cs using Guid(2f44a997651ff1249afcd5e01d4ed0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd94ee3f4dced46f4297e01140b7d6d86') in 0.011609 seconds
+  Import took 0.017937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(d3026c908ce277447925cb7a06c9df20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(d3026c908ce277447925cb7a06c9df20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a426c3101c231c57a3159267b0504fd') in 0.016445 seconds
+  Import took 0.026136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027405 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(d3026c908ce277447925cb7a06c9df20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(d3026c908ce277447925cb7a06c9df20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a426c3101c231c57a3159267b0504fd') in 0.011827 seconds
+  Import took 0.023701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.018838 seconds.
+  path: Assets/Scripts/GameManagerX.cs
+  artifactKey: Guid(2f44a997651ff1249afcd5e01d4ed0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManagerX.cs using Guid(2f44a997651ff1249afcd5e01d4ed0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29e9bb6e06eafd5784ff147b9db4d5ad') in 0.035498 seconds
+  Import took 0.041602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010395 seconds.
+  path: Assets/Scripts/GameManagerX.cs
+  artifactKey: Guid(2f44a997651ff1249afcd5e01d4ed0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManagerX.cs using Guid(2f44a997651ff1249afcd5e01d4ed0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29e9bb6e06eafd5784ff147b9db4d5ad') in 0.007468 seconds
+  Import took 0.011276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.182456 seconds.
+  path: Assets/Scripts/MoveEnemy.cs
+  artifactKey: Guid(296b31ff254dc7f45a7ce928023f34a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MoveEnemy.cs using Guid(296b31ff254dc7f45a7ce928023f34a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26ef9ebb2bec8d1a511b8ce8f2cff812') in 0.009196 seconds
+  Import took 0.014250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Scripts/MoveLeft.cs
+  artifactKey: Guid(b2f6715707b3fcf4c93c5a2141af0fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MoveLeft.cs using Guid(b2f6715707b3fcf4c93c5a2141af0fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a189dfecd6bbc4b077eeb05e8dca5c6') in 0.007716 seconds
+  Import took 0.010732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.866481 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(d3026c908ce277447925cb7a06c9df20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(d3026c908ce277447925cb7a06c9df20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8648eb7e84fac3b410238b8ebb5a809d') in 0.013908 seconds
+  Import took 0.018323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.584413 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(d3026c908ce277447925cb7a06c9df20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(d3026c908ce277447925cb7a06c9df20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01af5256fbaaa16ae586066ab63882c5') in 0.006958 seconds
+  Import took 0.010738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.005279 seconds.
+  path: Assets/Scripts/GameManagerX.cs
+  artifactKey: Guid(2f44a997651ff1249afcd5e01d4ed0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManagerX.cs using Guid(2f44a997651ff1249afcd5e01d4ed0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb7c0ea1e5ea96534dec38251daf94f') in 0.010566 seconds
+  Import took 0.018979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038793 seconds.
+  path: Assets/Scripts/GameManagerX.cs
+  artifactKey: Guid(2f44a997651ff1249afcd5e01d4ed0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManagerX.cs using Guid(2f44a997651ff1249afcd5e01d4ed0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb7c0ea1e5ea96534dec38251daf94f') in 0.007247 seconds
+  Import took 0.011227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.734935 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(d3026c908ce277447925cb7a06c9df20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(d3026c908ce277447925cb7a06c9df20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0778fa31c6024711d9b2b30213ae9a7') in 0.007041 seconds
+  Import took 0.012858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.047799 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(d3026c908ce277447925cb7a06c9df20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(d3026c908ce277447925cb7a06c9df20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93bd0bd102eef85f6719aec1ff8c4065') in 0.007695 seconds
+  Import took 0.011406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.155206 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(d3026c908ce277447925cb7a06c9df20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(d3026c908ce277447925cb7a06c9df20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa6df70453d747fb0b5c4f79f309ae80') in 0.008227 seconds
+  Import took 0.012912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019246 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(d3026c908ce277447925cb7a06c9df20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(d3026c908ce277447925cb7a06c9df20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa6df70453d747fb0b5c4f79f309ae80') in 0.008294 seconds
+  Import took 0.012740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.314208 seconds.
+  path: Assets/Scripts/GameManagerX.cs
+  artifactKey: Guid(2f44a997651ff1249afcd5e01d4ed0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManagerX.cs using Guid(2f44a997651ff1249afcd5e01d4ed0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c8614ac562d7fbea0db76cce9ed916') in 0.008356 seconds
+  Import took 0.013612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.068179 seconds.
+  path: Assets/Scripts/GameManagerX.cs
+  artifactKey: Guid(2f44a997651ff1249afcd5e01d4ed0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManagerX.cs using Guid(2f44a997651ff1249afcd5e01d4ed0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c8614ac562d7fbea0db76cce9ed916') in 0.006982 seconds
+  Import took 0.013345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Scripts/SpawnManager.cs
+  artifactKey: Guid(599740c7b43c9044aaa8af22e5d08632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SpawnManager.cs using Guid(599740c7b43c9044aaa8af22e5d08632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2017db25d78e6de26fd00e2a454601ef') in 0.007674 seconds
+  Import took 0.011361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030180 seconds.
+  path: Assets/Scripts/SpawnManager.cs
+  artifactKey: Guid(599740c7b43c9044aaa8af22e5d08632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SpawnManager.cs using Guid(599740c7b43c9044aaa8af22e5d08632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2017db25d78e6de26fd00e2a454601ef') in 0.008646 seconds
+  Import took 0.013215 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2020.2.0b7/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002363 seconds.
+Symbol file LoadedFromMemory doesn't match image C:\My-Documents\GamewithLOVE2D\cs50x_assignments\amWRit\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 43.94 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.382 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000844 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\My-Documents\GamewithLOVE2D\cs50x_assignments\amWRit\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.080 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 38.9 MB.
+System memory in use after: 39.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1567.
+Total: 2.791400 ms (FindLiveObjects: 0.363300 ms CreateObjectMapping: 0.068300 ms MarkObjects: 2.257300 ms  DeleteObjects: 0.100800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.730241 seconds.
+  path: Assets/Scripts/GameManagerX.cs
+  artifactKey: Guid(2f44a997651ff1249afcd5e01d4ed0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManagerX.cs using Guid(2f44a997651ff1249afcd5e01d4ed0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba7fdd47c51aba20e0f3045b7e70637') in 0.007000 seconds
+  Import took 0.009801 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2020.2.0b7/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002818 seconds.
+Symbol file LoadedFromMemory doesn't match image C:\My-Documents\GamewithLOVE2D\cs50x_assignments\amWRit\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 35.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.418 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000874 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\My-Documents\GamewithLOVE2D\cs50x_assignments\amWRit\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.111 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 39.2 MB.
+System memory in use after: 39.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1571.
+Total: 2.285300 ms (FindLiveObjects: 0.360000 ms CreateObjectMapping: 0.057300 ms MarkObjects: 1.792000 ms  DeleteObjects: 0.074400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 133.882926 seconds.
+  path: Assets/Scripts/GameManagerX.cs
+  artifactKey: Guid(2f44a997651ff1249afcd5e01d4ed0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManagerX.cs using Guid(2f44a997651ff1249afcd5e01d4ed0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '230899e102349b5b6d9e1a50319563ef') in 0.006482 seconds
+  Import took 0.009111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/Scripts/SpawnManager.cs
+  artifactKey: Guid(599740c7b43c9044aaa8af22e5d08632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SpawnManager.cs using Guid(599740c7b43c9044aaa8af22e5d08632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d718e4b1b03056ca79c2cfdf9a8fa3e') in 0.005463 seconds
+  Import took 0.007917 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2020.2.0b7/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001901 seconds.
+Symbol file LoadedFromMemory doesn't match image C:\My-Documents\GamewithLOVE2D\cs50x_assignments\amWRit\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 38.15 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.434 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000841 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\My-Documents\GamewithLOVE2D\cs50x_assignments\amWRit\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.299 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 39.4 MB.
+System memory in use after: 39.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1575.
+Total: 2.169800 ms (FindLiveObjects: 0.382900 ms CreateObjectMapping: 0.055700 ms MarkObjects: 1.647700 ms  DeleteObjects: 0.081400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 121.258615 seconds.
+  path: Assets/Scripts/GameManagerX.cs
+  artifactKey: Guid(2f44a997651ff1249afcd5e01d4ed0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManagerX.cs using Guid(2f44a997651ff1249afcd5e01d4ed0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a6dc389b2987e14a1dac22416244df') in 0.006543 seconds
+  Import took 0.009373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.475982 seconds.
+  path: Assets/Scripts/GameManagerX.cs
+  artifactKey: Guid(2f44a997651ff1249afcd5e01d4ed0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManagerX.cs using Guid(2f44a997651ff1249afcd5e01d4ed0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cc512133872070eed6449eedf0b2d03') in 0.009235 seconds
+  Import took 0.015295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.940799 seconds.
+  path: Assets/Scripts/GameManagerX.cs
+  artifactKey: Guid(2f44a997651ff1249afcd5e01d4ed0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManagerX.cs using Guid(2f44a997651ff1249afcd5e01d4ed0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3acccc68a2591040dbb96f325ac2473c') in 0.008982 seconds
+  Import took 0.013347 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2020.2.0b7/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001915 seconds.
+Symbol file LoadedFromMemory doesn't match image C:\My-Documents\GamewithLOVE2D\cs50x_assignments\amWRit\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 37.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.531 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000817 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\My-Documents\GamewithLOVE2D\cs50x_assignments\amWRit\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.252 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 39.6 MB.
+System memory in use after: 39.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1579.
+Total: 2.663900 ms (FindLiveObjects: 0.338900 ms CreateObjectMapping: 0.054600 ms MarkObjects: 2.128200 ms  DeleteObjects: 0.140500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.827393 seconds.
+  path: Assets/Scripts/GameManagerX.cs
+  artifactKey: Guid(2f44a997651ff1249afcd5e01d4ed0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManagerX.cs using Guid(2f44a997651ff1249afcd5e01d4ed0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f44ccec172ef2ff30a9c99ee4fa4b10') in 0.007040 seconds
+  Import took 0.009929 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2020.2.0b7/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002134 seconds.
+Symbol file LoadedFromMemory doesn't match image C:\My-Documents\GamewithLOVE2D\cs50x_assignments\amWRit\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 32.77 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.463 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000832 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\My-Documents\GamewithLOVE2D\cs50x_assignments\amWRit\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.337 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 39.0 MB.
+System memory in use after: 39.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1583.
+Total: 2.203200 ms (FindLiveObjects: 0.408400 ms CreateObjectMapping: 0.088000 ms MarkObjects: 1.633100 ms  DeleteObjects: 0.072100 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2020.2.0b7/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002794 seconds.
+Symbol file LoadedFromMemory doesn't match image C:\My-Documents\GamewithLOVE2D\cs50x_assignments\amWRit\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 33.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.496 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001376 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\My-Documents\GamewithLOVE2D\cs50x_assignments\amWRit\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.402 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 39.2 MB.
+System memory in use after: 39.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1587.
+Total: 3.114500 ms (FindLiveObjects: 0.604100 ms CreateObjectMapping: 0.111800 ms MarkObjects: 2.325800 ms  DeleteObjects: 0.070800 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2020.2.0b7/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002791 seconds.
+Symbol file LoadedFromMemory doesn't match image C:\My-Documents\GamewithLOVE2D\cs50x_assignments\amWRit\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 44.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.838 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001608 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\My-Documents\GamewithLOVE2D\cs50x_assignments\amWRit\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.400 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 39.5 MB.
+System memory in use after: 39.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1591.
+Total: 3.839300 ms (FindLiveObjects: 0.491800 ms CreateObjectMapping: 0.116100 ms MarkObjects: 3.150900 ms  DeleteObjects: 0.078000 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2020.2.0b7/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001949 seconds.
+Symbol file LoadedFromMemory doesn't match image C:\My-Documents\GamewithLOVE2D\cs50x_assignments\amWRit\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 31.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.468 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000819 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\My-Documents\GamewithLOVE2D\cs50x_assignments\amWRit\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.462 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 39.7 MB.
+System memory in use after: 39.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1595.
+Total: 3.028400 ms (FindLiveObjects: 0.518400 ms CreateObjectMapping: 0.125900 ms MarkObjects: 2.305900 ms  DeleteObjects: 0.076100 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2020.2.0b7/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001948 seconds.
+Symbol file LoadedFromMemory doesn't match image C:\My-Documents\GamewithLOVE2D\cs50x_assignments\amWRit\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 51.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.760 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000817 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\My-Documents\GamewithLOVE2D\cs50x_assignments\amWRit\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.488 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 39.0 MB.
+System memory in use after: 39.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1599.
+Total: 3.220500 ms (FindLiveObjects: 0.370300 ms CreateObjectMapping: 0.066500 ms MarkObjects: 2.713700 ms  DeleteObjects: 0.068500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 400.600455 seconds.
+  path: Assets/Prefabs/Maths
+  artifactKey: Guid(7d74a5be533edc84395f6bfd54e679ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Maths using Guid(7d74a5be533edc84395f6bfd54e679ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '857dbf12c1cb457bdd6049825eb979f9') in 0.010571 seconds
+  Import took 0.014782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000444 seconds.
+  path: Assets/Prefabs/math_3.prefab
+  artifactKey: Guid(6e1bfc0c3c6feef4aa63b36a5c1988e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/math_3.prefab using Guid(6e1bfc0c3c6feef4aa63b36a5c1988e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e997ebf16b1a407a1a4ccf5ded37a908') in 0.184854 seconds
+  Import took 0.188813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Prefabs/math_0.prefab
+  artifactKey: Guid(f4b240c0df4a0704ba1c12d168d46d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/math_0.prefab using Guid(f4b240c0df4a0704ba1c12d168d46d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c81f0dfe7d3efd826e2d9e20571c3387') in 0.050263 seconds
+  Import took 0.054807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Prefabs/Bomb.prefab
+  artifactKey: Guid(1db47c5ef25154fb1806822c25335042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bomb.prefab using Guid(1db47c5ef25154fb1806822c25335042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49a5c17819d41bf7b026a3e6977ae0c8') in 0.428732 seconds
+  Import took 0.434450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Prefabs/math_1.prefab
+  artifactKey: Guid(d2a25a9e448b81a41b39c3ecccbf476f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/math_1.prefab using Guid(d2a25a9e448b81a41b39c3ecccbf476f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e5c312bbcfc44fedb67a69be9915c73') in 0.030562 seconds
+  Import took 0.034011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Prefabs/Environment.prefab
+  artifactKey: Guid(dfd38ae7066b6d74ab6161ee09313ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Environment.prefab using Guid(dfd38ae7066b6d74ab6161ee09313ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0c5c57ee175a33dcce0dd90ed760b74') in 0.039854 seconds
+  Import took 0.044364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Prefabs/math_2.prefab
+  artifactKey: Guid(c44bddcefbd68a646af1660facc42cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/math_2.prefab using Guid(c44bddcefbd68a646af1660facc42cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ac67a77dcb7bbbaf3e0a7f5d3f7730') in 0.038601 seconds
+  Import took 0.042779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Prefabs/math_4.prefab
+  artifactKey: Guid(99a851ba07ad4004fa4213d97f5811e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/math_4.prefab using Guid(99a851ba07ad4004fa4213d97f5811e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4642aeddffc4cc5ae4c7f9d1ff6068') in 0.026387 seconds
+  Import took 0.032508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.090367 seconds.
+  path: Assets/Prefabs/math_5.prefab
+  artifactKey: Guid(a73b5cdc1bb413f40a5aabfe377d975b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/math_5.prefab using Guid(a73b5cdc1bb413f40a5aabfe377d975b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f8ade3d2368b44f54478eae77de154b') in 0.021808 seconds
+  Import took 0.026132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.441080 seconds.
+  path: Assets/Prefabs/math_6.prefab
+  artifactKey: Guid(ad31ea7efb029ce4d861330d170fe152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/math_6.prefab using Guid(ad31ea7efb029ce4d861330d170fe152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6fa0e1a3c30315681138db74afd720c') in 0.022573 seconds
+  Import took 0.026825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055848 seconds.
+  path: Assets/Prefabs/math_7.prefab
+  artifactKey: Guid(ed9604a41d0ee444ca36ab11263ba611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/math_7.prefab using Guid(ed9604a41d0ee444ca36ab11263ba611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7e89139741b8fe2808384fce70a94ba') in 0.026095 seconds
+  Import took 0.029912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002430 seconds.
+  path: Assets/Prefabs/math_7.prefab
+  artifactKey: Guid(ed9604a41d0ee444ca36ab11263ba611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/math_7.prefab using Guid(ed9604a41d0ee444ca36ab11263ba611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7e89139741b8fe2808384fce70a94ba') in 0.041565 seconds
+  Import took 0.045972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.347025 seconds.
+  path: Assets/Prefabs/math_8.prefab
+  artifactKey: Guid(e68a191492d269d469860bb3a024f268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/math_8.prefab using Guid(e68a191492d269d469860bb3a024f268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5549a3dbb793842b9f04e9703b38c8a') in 0.027509 seconds
+  Import took 0.033407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004278 seconds.
+  path: Assets/Prefabs/math_8.prefab
+  artifactKey: Guid(e68a191492d269d469860bb3a024f268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/math_8.prefab using Guid(e68a191492d269d469860bb3a024f268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5549a3dbb793842b9f04e9703b38c8a') in 0.020903 seconds
+  Import took 0.026867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/Prefabs/math_9.prefab
+  artifactKey: Guid(5e8295551aedfe845bd194cc6d1a6306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/math_9.prefab using Guid(5e8295551aedfe845bd194cc6d1a6306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a156e664f9d1e4902a3488111195fe1') in 0.038693 seconds
+  Import took 0.043876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028979 seconds.
+  path: Assets/Prefabs/math_add.prefab
+  artifactKey: Guid(37eb05b875b7957498f0433609e4ab8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/math_add.prefab using Guid(37eb05b875b7957498f0433609e4ab8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf602d3d2d87e4a9a85692358a4c1ac') in 0.030720 seconds
+  Import took 0.034440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Prefabs/math_div.prefab
+  artifactKey: Guid(da3b896c66e98954ab84caf363f0debe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/math_div.prefab using Guid(da3b896c66e98954ab84caf363f0debe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9901ea11ebf2cef916a4ab8c28a6937') in 0.036331 seconds
+  Import took 0.042481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.258985 seconds.
+  path: Assets/Prefabs/math_mult.prefab
+  artifactKey: Guid(888cd203bb85b3d4994f8c8d3f61fb2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/math_mult.prefab using Guid(888cd203bb85b3d4994f8c8d3f61fb2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ee9807a8b18f3e180269f8b49863ba') in 0.025059 seconds
+  Import took 0.029666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030554 seconds.
+  path: Assets/Prefabs/math_sub.prefab
+  artifactKey: Guid(df6112ea879ebd34f86097ed9bb91e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/math_sub.prefab using Guid(df6112ea879ebd34f86097ed9bb91e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c582d2f7fd7d922ffc10b1adbb6a7c52') in 0.063500 seconds
+  Import took 0.066914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Prefabs/Money.prefab
+  artifactKey: Guid(0752829c2e3ba4cb78049ff40067a24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Money.prefab using Guid(0752829c2e3ba4cb78049ff40067a24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eabf85630f3fc6eb3b7291310071858') in 0.181373 seconds
+  Import took 0.184347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.143451 seconds.
+  path: Assets/Prefabs/Obstacle.prefab
+  artifactKey: Guid(24170c93eeab8c340b6b694e772735c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle.prefab using Guid(24170c93eeab8c340b6b694e772735c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c33443fa642a19c7bac7907b5254b0d') in 0.025826 seconds
+  Import took 0.032357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001241 seconds.
+  path: Assets/Prefabs/Obstacle.prefab
+  artifactKey: Guid(24170c93eeab8c340b6b694e772735c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle.prefab using Guid(24170c93eeab8c340b6b694e772735c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c33443fa642a19c7bac7907b5254b0d') in 0.048452 seconds
+  Import took 0.054816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000530 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(0ae5bab20a4814ac0840dcc8c32cd9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(0ae5bab20a4814ac0840dcc8c32cd9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef17c0ccf54807d2a4dd6b23cdd3ba7') in 0.060155 seconds
+  Import took 0.066138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.456086 seconds.
+  path: Assets/Prefabs/Road.prefab
+  artifactKey: Guid(349b454b1bc13a44d89d0199bfe0b445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Road.prefab using Guid(349b454b1bc13a44d89d0199bfe0b445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00d28ce475951e380dcebe4d450f59b2') in 0.042063 seconds
+  Import took 0.055301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 92.042250 seconds.
+  path: Assets/Scripts/SpawnManager.cs
+  artifactKey: Guid(599740c7b43c9044aaa8af22e5d08632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SpawnManager.cs using Guid(599740c7b43c9044aaa8af22e5d08632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b2de82c485e3b3d35e94beaaf83406') in 0.006803 seconds
+  Import took 0.010772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000960 seconds.
+  path: Assets/Scripts/SpawnManager.cs
+  artifactKey: Guid(599740c7b43c9044aaa8af22e5d08632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SpawnManager.cs using Guid(599740c7b43c9044aaa8af22e5d08632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b2de82c485e3b3d35e94beaaf83406') in 0.006371 seconds
+  Import took 0.010455 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2020.2.0b7/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005180 seconds.
+Symbol file LoadedFromMemory doesn't match image C:\My-Documents\GamewithLOVE2D\cs50x_assignments\amWRit\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 31.93 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.767 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000924 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\My-Documents\GamewithLOVE2D\cs50x_assignments\amWRit\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.560 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 42.9 MB.
+System memory in use after: 43.0 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1612.
+Total: 4.872700 ms (FindLiveObjects: 1.191300 ms CreateObjectMapping: 0.172000 ms MarkObjects: 3.394000 ms  DeleteObjects: 0.112300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.320614 seconds.
+  path: Assets/Scripts/GameManagerX.cs
+  artifactKey: Guid(2f44a997651ff1249afcd5e01d4ed0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManagerX.cs using Guid(2f44a997651ff1249afcd5e01d4ed0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14705e75ed83ce5758529c98c0424a1e') in 0.007648 seconds
+  Import took 0.011623 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2020.2.0b7/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002864 seconds.
+Symbol file LoadedFromMemory doesn't match image C:\My-Documents\GamewithLOVE2D\cs50x_assignments\amWRit\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 34.96 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.880 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000915 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\My-Documents\GamewithLOVE2D\cs50x_assignments\amWRit\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.815 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 43.2 MB.
+System memory in use after: 43.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1616.
+Total: 3.909100 ms (FindLiveObjects: 1.026100 ms CreateObjectMapping: 0.150700 ms MarkObjects: 2.656400 ms  DeleteObjects: 0.073300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.883995 seconds.
+  path: Assets/Scripts/GameManagerX.cs
+  artifactKey: Guid(2f44a997651ff1249afcd5e01d4ed0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManagerX.cs using Guid(2f44a997651ff1249afcd5e01d4ed0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43bae4fb787f424a57d201f7e1ec35db') in 0.007217 seconds
+  Import took 0.010334 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2020.2.0b7/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001862 seconds.
+Symbol file LoadedFromMemory doesn't match image C:\My-Documents\GamewithLOVE2D\cs50x_assignments\amWRit\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 31.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.931 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000878 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\My-Documents\GamewithLOVE2D\cs50x_assignments\amWRit\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.529 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 43.2 MB.
+System memory in use after: 43.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1620.
+Total: 2.387600 ms (FindLiveObjects: 0.513600 ms CreateObjectMapping: 0.077000 ms MarkObjects: 1.720000 ms  DeleteObjects: 0.075000 ms)
+
