@@ -36,6 +36,7 @@ public class GameManagerX : MonoBehaviour
 
 	private AudioSource playerAudio; 
     public AudioClip scoreSound;
+    public ParticleSystem scoreParticle;
 
 	public GameObject[] obstaclePrefabs;
     public GameObject[] enemyPrefabs;
@@ -143,6 +144,7 @@ public class GameManagerX : MonoBehaviour
 
                 if(mathResult == mathsTarget){
                 	playerAudio.PlayOneShot(scoreSound, 1.0f);
+                	scoreParticle.Play();
                     score += 1;
                     scoreText.text = "Score: " + score;
                     speed += 5;
