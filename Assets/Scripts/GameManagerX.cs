@@ -10,6 +10,7 @@ public class GameManagerX : MonoBehaviour
 {
 	public bool gameOver = false;
 	private bool isGameActive = true;
+	public int currentGameType;
 
 	public float speed = 20;
 
@@ -20,14 +21,18 @@ public class GameManagerX : MonoBehaviour
     public TextMeshProUGUI speedText;
 
     private List<string> mathNumbers = new List<string>() {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"}; 
-    private List<string> mathOperations = new List<string>() {"add", "sub", "mul", "div"}; 
+    private List<string> mathOperations = new List<string>() {"add", "sub", "mul", "div"};
+    private List<string> letters = new List<string>() {"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p",
+														"q", "r", "s", "t", "u", "v", "w", "x", "y", "z"};  
     private float mathResult = 0.0f;
+    private string englishResult;
     //public List<string> collectedItems = new List<string>();
 
     private string currentOperation;
     private string currentNumber;
 
     private float mathsTarget;
+    private string englishTarget = "";
     private float score;
 
     public TextMeshProUGUI gameOverText;
@@ -38,9 +43,11 @@ public class GameManagerX : MonoBehaviour
     public AudioClip scoreSound;
     public ParticleSystem scoreParticle;
 
-	public GameObject[] obstaclePrefabs;
+	public GameObject[] numberPrefabs;
     public GameObject[] enemyPrefabs;
+    public GameObject[] letterPrefabs;
     public GameObject[] mathOperationPrefabs;
+
 	private Vector3 spawnPos = new Vector3(40, 2, 0);
 
     // Start is called before the first frame update
@@ -52,12 +59,17 @@ public class GameManagerX : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-        
+    { 
+        if (Input.GetKey(KeyCode.C) && !gameOver){;
+            englishResult = "";
+            resultText.text = "Result: ";
+        }
     }
 
     // 1 = maths, 2 = english
     public void StartGame(int gameType){
+    	currentGameType = gameType;
+    	CalculateTarget();
         isGameActive = true;
         //StartCoroutine(SpawnTarget());
 
@@ -94,19 +106,29 @@ public class GameManagerX : MonoBehaviour
             yield return new WaitForSeconds(waitTime);
             int obstacleIndex;
             GameObject obstacle;
-            int spawnRandom = Random.Range(1,5);
+            int spawnRandom = Random.Range(1,5); //1 to 5
+
+
             //spawn numbers
-            if( spawnRandom >= 4){
-                obstacleIndex = Random.Range(0, obstaclePrefabs.Length);
-                obstacle = obstaclePrefabs[obstacleIndex];
+            if( spawnRandom >= 4 && currentGameType == 1){
+                obstacleIndex = Random.Range(0, numberPrefabs.Length);
+                obstacle = numberPrefabs[obstacleIndex];
                 spawnPos = obstacle.transform.position;
                 // spawnPos.z = Random.Range(-6,10);
             } 
-            else if(spawnRandom > 1 && spawnRandom < 4) {
+            // spawn math operations
+            else if(spawnRandom > 1 && spawnRandom < 4 && currentGameType == 1) {
                 obstacleIndex = Random.Range(0, mathOperationPrefabs.Length);
                 obstacle = mathOperationPrefabs[obstacleIndex];
                 spawnPos = obstacle.transform.position;
             }
+            // spawn letters
+            else if(spawnRandom >= 3 && currentGameType == 2) {
+                obstacleIndex = Random.Range(0, letterPrefabs.Length);
+                obstacle = letterPrefabs[obstacleIndex];
+                spawnPos = obstacle.transform.position;
+            }
+
             //spawn enemy
             else {
                 obstacleIndex = Random.Range(0, enemyPrefabs.Length);
@@ -120,6 +142,15 @@ public class GameManagerX : MonoBehaviour
             if(gameOver == false){
                 Instantiate(obstacle, spawnPos, obstacle.transform.rotation);
             }
+        }
+    }
+
+    public void TargetOperation(string tag){
+    	if (mathOperations.Contains(tag) || mathNumbers.Contains(tag)){
+            MathOperation(tag); 
+        }
+        else if(letters.Contains(tag)){
+        	LetterOperation(tag);
         }
     }
 
@@ -143,12 +174,7 @@ public class GameManagerX : MonoBehaviour
                 resultText.text = "Result: " + mathResult;
 
                 if(mathResult == mathsTarget){
-                	playerAudio.PlayOneShot(scoreSound, 1.0f);
-                	scoreParticle.Play();
-                    score += 1;
-                    scoreText.text = "Score: " + score;
-                    speed += 5;
-                    speedText.text = "Score: " + speed;
+                	Score();
                 }
             }
         }    
@@ -206,7 +232,31 @@ public class GameManagerX : MonoBehaviour
     }
 
     public void CalculateTarget(){
-        mathsTarget = Random.Range(10,20);
-        targetText.text = "Target: " + mathsTarget;
+        if(currentGameType == 1){
+        	mathsTarget = Random.Range(10,20);
+        	targetText.text = "Target: " + mathsTarget;
+        } 
+        else if(currentGameType == 2){
+        	englishTarget = "abc";
+        	targetText.text = "Target: " + englishTarget;
+        }
+    }
+
+    private void LetterOperation(string tag){
+    	englishResult += tag;
+    	resultText.text = "Result: " + englishResult;
+    	Debug.Log(englishResult);
+    	if(string.Equals(englishTarget, englishResult)){
+    		Score();
+    	}
+    }
+
+    private void Score(){
+    	playerAudio.PlayOneShot(scoreSound, 1.0f);
+    	scoreParticle.Play();
+        score += 1;
+        scoreText.text = "Score: " + score;
+        speed += 5;
+        speedText.text = "Score: " + speed;               
     }
 }

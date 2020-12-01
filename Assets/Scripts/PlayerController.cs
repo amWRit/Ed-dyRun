@@ -45,7 +45,6 @@ public class PlayerController : MonoBehaviour
         playerAudio = GetComponent<AudioSource>();
 
         gameManagerController = GameObject.Find("Game Manager").GetComponent<GameManagerX>();
-        gameManagerController.CalculateTarget();
     }
 
     // Update is called once per frame
@@ -62,18 +61,19 @@ public class PlayerController : MonoBehaviour
         }
 
 
-        if (Input.GetKey(KeyCode.RightArrow) && !gameOver && transform.position.z > -6.5){
+        if (Input.GetKey(KeyCode.RightArrow) && !gameOver && transform.position.z > -7.5){
             //transform.position = Vector3.Lerp(startPos, startPos + transform.right * slideForce, 10 * Time.deltaTime);
             transform.Translate(Vector3.right * Time.deltaTime * slideForce);
         }
 
-        if (Input.GetKey(KeyCode.LeftArrow) && !gameOver && transform.position.z < 6.5){
+        if (Input.GetKey(KeyCode.LeftArrow) && !gameOver && transform.position.z < 7.5){
             transform.Translate(Vector3.right * Time.deltaTime * -slideForce);
         }
 
-        if (Input.GetKey(KeyCode.DownArrow) && !gameOver && transform.position.z < 6.5){;
+        if (Input.GetKey(KeyCode.DownArrow) && !gameOver && transform.position.x > -2){;
             transform.Translate(Vector3.forward * Time.deltaTime * -slideForce);
         }
+
     }
 
     private void OnCollisionEnter (Collision collision){
@@ -94,11 +94,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-         
-        if (mathOperations.Contains(other.tag) || mathNumbers.Contains(other.tag)){
-            Debug.Log(other.tag);
-            gameManagerController.MathOperation(other.tag); 
-        } 
+        gameManagerController.TargetOperation(other.tag); 
 
         playerAudio.PlayOneShot(eatSound, 1.0f);
         Destroy(other.gameObject);
