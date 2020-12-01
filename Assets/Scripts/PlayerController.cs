@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
     public float gravityModifier;
     public float slideForce;
 
+
     public bool isOnGround = true;  
 
     private Animator playerAnim; 
@@ -60,16 +61,17 @@ public class PlayerController : MonoBehaviour
         	playerAudio.PlayOneShot(jumpSound, 1.0f);
         }
 
-        if (Input.GetKeyDown(KeyCode.RightArrow) && !gameOver && transform.position.z > -6.5){
+
+        if (Input.GetKey(KeyCode.RightArrow) && !gameOver && transform.position.z > -6.5){
             //transform.position = Vector3.Lerp(startPos, startPos + transform.right * slideForce, 10 * Time.deltaTime);
             transform.Translate(Vector3.right * Time.deltaTime * slideForce);
         }
 
-        if (Input.GetKeyDown(KeyCode.LeftArrow) && !gameOver && transform.position.z < 6.5){
+        if (Input.GetKey(KeyCode.LeftArrow) && !gameOver && transform.position.z < 6.5){
             transform.Translate(Vector3.right * Time.deltaTime * -slideForce);
         }
 
-        if (Input.GetKeyDown(KeyCode.DownArrow) && !gameOver && transform.position.z < 6.5){;
+        if (Input.GetKey(KeyCode.DownArrow) && !gameOver && transform.position.z < 6.5){;
             transform.Translate(Vector3.forward * Time.deltaTime * -slideForce);
         }
     }
