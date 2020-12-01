@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MoveEnemy : MonoBehaviour
 {
-	private float speed = 30;
+	//private float speed = 30;
 	private GameManagerX gameManagerController;
 	private float leftBound = -10;
     // Start is called before the first frame update
@@ -17,7 +17,7 @@ public class MoveEnemy : MonoBehaviour
     void Update()
     {
         if(gameManagerController.gameOver == false){
-        	transform.Translate(Vector3.left * Time.deltaTime * speed);
+        	transform.Translate(Vector3.left * Time.deltaTime * gameManagerController.speed);
         }
 
         if(transform.position.x < leftBound){

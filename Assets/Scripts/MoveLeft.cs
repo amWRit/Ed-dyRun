@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MoveLeft : MonoBehaviour
 {
-	private float speed = 30;
+	//private float speed = 30;
     private GameManagerX gameManagerController;
 	private float leftBound = -10;
     // Start is called before the first frame update
@@ -17,7 +17,7 @@ public class MoveLeft : MonoBehaviour
     void Update()
     {
         if(gameManagerController.gameOver == false){
-        	transform.Translate(Vector3.forward * Time.deltaTime * speed);
+        	transform.Translate(Vector3.forward * Time.deltaTime * gameManagerController.speed);
         }
 
         if(transform.position.x < leftBound){

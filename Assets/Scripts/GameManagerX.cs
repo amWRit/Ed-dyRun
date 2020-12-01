@@ -11,15 +11,18 @@ public class GameManagerX : MonoBehaviour
 	public bool gameOver = false;
 	private bool isGameActive = true;
 
+	public float speed = 20;
+
     public TextMeshProUGUI operationText;
     public TextMeshProUGUI resultText;
     public TextMeshProUGUI targetText;
     public TextMeshProUGUI scoreText;
+    public TextMeshProUGUI speedText;
 
     private List<string> mathNumbers = new List<string>() {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"}; 
     private List<string> mathOperations = new List<string>() {"add", "sub", "mul", "div"}; 
     private float mathResult = 0.0f;
-    public List<string> collectedItems = new List<string>();
+    //public List<string> collectedItems = new List<string>();
 
     private string currentOperation;
     private string currentNumber;
@@ -43,6 +46,7 @@ public class GameManagerX : MonoBehaviour
     void Start()
     {
         playerAudio = GetComponent<AudioSource>();
+        speedText.text = "Speed: " + speed;
     }
 
     // Update is called once per frame
@@ -141,6 +145,8 @@ public class GameManagerX : MonoBehaviour
                 	playerAudio.PlayOneShot(scoreSound, 1.0f);
                     score += 1;
                     scoreText.text = "Score: " + score;
+                    speed += 5;
+                    speedText.text = "Score: " + speed;
                 }
             }
         }    
