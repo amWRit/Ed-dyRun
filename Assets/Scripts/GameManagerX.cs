@@ -76,11 +76,17 @@ public class GameManagerX : MonoBehaviour
         //UpdateScore(0);
         titleScreen.SetActive(false);
 
-        //timerText.text = "Timer: " + seconds;
-        //timerRoutine = StartCoroutine(time());
+        targetText.gameObject.SetActive(true);
+        resultText.gameObject.SetActive(true);
+        scoreText.gameObject.SetActive(true);
+        speedText.gameObject.SetActive(true);
 
-        //CalculateTarget();
-        //playerControllerScript = GameObject.Find("Player").GetComponent<PlayerController>();
+        if(gameType == 1){
+        	operationText.gameObject.SetActive(true);
+        }
+        else{
+        	operationText.gameObject.SetActive(false);
+        }
 
         StartCoroutine(SpawnObstacle());
     }
