@@ -137,7 +137,7 @@ public class GameManagerX : MonoBehaviour
                 spawnPos.z = Random.Range(-6,10);
             }
    
-            spawnPos.x = Random.Range(60,80);
+            spawnPos.x = Random.Range(80,90);
             // spawnPos.y = Random.Range(-6,10);
             if(gameOver == false){
                 Instantiate(obstacle, spawnPos, obstacle.transform.rotation);
