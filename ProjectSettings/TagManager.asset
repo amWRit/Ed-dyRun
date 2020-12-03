@@ -3,7 +3,50 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - one
+  - Obstacle
+  - two
+  - zero
+  - eight
+  - Money
+  - add
+  - five
+  - mul
+  - four
+  - div
+  - six
+  - seven
+  - nine
+  - three
+  - sub
+  - Ground
+  - a
+  - b
+  - c
+  - d
+  - e
+  - f
+  - g
+  - h
+  - i
+  - j
+  - k
+  - l
+  - m
+  - n
+  - o
+  - p
+  - q
+  - r
+  - s
+  - t
+  - u
+  - v
+  - w
+  - x
+  - y
+  - z
   layers:
   - Default
   - TransparentFX
