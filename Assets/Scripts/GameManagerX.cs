@@ -11,6 +11,7 @@ public class GameManagerX : MonoBehaviour
 	public bool gameOver = false;
 	private bool isGameActive = true;
 	public int currentGameType;
+	public int level;
 
 	public float speed = 20;
 
@@ -19,6 +20,7 @@ public class GameManagerX : MonoBehaviour
     public TextMeshProUGUI targetText;
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI speedText;
+    public TextMeshProUGUI levelText;
 
     private List<string> mathNumbers = new List<string>() {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"}; 
     private List<string> mathOperations = new List<string>() {"add", "sub", "mul", "div"};
@@ -58,6 +60,7 @@ public class GameManagerX : MonoBehaviour
     {
         playerAudio = GetComponent<AudioSource>();
         speedText.text = "Speed: " + speed;
+        levelText.text = "Level: " + level;
     }
 
     // Update is called once per frame
@@ -83,6 +86,7 @@ public class GameManagerX : MonoBehaviour
         resultText.gameObject.SetActive(true);
         scoreText.gameObject.SetActive(true);
         speedText.gameObject.SetActive(true);
+        levelText.gameObject.SetActive(true);
 
         if(gameType == 1){
         	operationText.gameObject.SetActive(true);
@@ -127,7 +131,11 @@ public class GameManagerX : MonoBehaviour
             } 
             // spawn math operations
             else if(spawnRandom > 1 && spawnRandom < 4 && currentGameType == 1) {
-                obstacleIndex = Random.Range(0, mathOperationPrefabs.Length);
+            	if(level < 5){
+                	obstacleIndex = Random.Range(0, level);
+            	} else{
+            		obstacleIndex = Random.Range(0, mathOperationPrefabs.Length);
+            	}
                 obstacle = mathOperationPrefabs[obstacleIndex];
                 spawnPos = obstacle.transform.position;
             }
@@ -263,7 +271,7 @@ public class GameManagerX : MonoBehaviour
     private void Score(){
     	playerAudio.PlayOneShot(scoreSound, 1.0f);
     	scoreParticle.Play();
-        score += 1;
+        score += 1 * level;
         scoreText.text = "Score: " + score;
         speed += 5;
         speedText.text = "Score: " + speed;               
