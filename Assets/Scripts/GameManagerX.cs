@@ -23,7 +23,10 @@ public class GameManagerX : MonoBehaviour
     private List<string> mathNumbers = new List<string>() {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"}; 
     private List<string> mathOperations = new List<string>() {"add", "sub", "mul", "div"};
     private List<string> letters = new List<string>() {"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p",
-														"q", "r", "s", "t", "u", "v", "w", "x", "y", "z"};  
+														"q", "r", "s", "t", "u", "v", "w", "x", "y", "z"}; 
+	private List<string> englishTargets = new List<string>() {"apple", "ball", "cat", "dog", "egg", "fan", "goat", "hen", "iron", "jug", "key", "lamp", "mouse", "nose", "orange", "puppy",
+														"queen", "rat", "snake", "tiger", "umbrella", "van", "watch", "xray", "yak", "zebra"};
+
     private float mathResult = 0.0f;
     private string englishResult;
     //public List<string> collectedItems = new List<string>();
@@ -135,7 +138,7 @@ public class GameManagerX : MonoBehaviour
                 spawnPos = obstacle.transform.position;
             }
 
-            //spawn enemy
+            //spawn enemy obstacles
             else {
                 obstacleIndex = Random.Range(0, enemyPrefabs.Length);
                 obstacle = enemyPrefabs[obstacleIndex];
@@ -243,7 +246,7 @@ public class GameManagerX : MonoBehaviour
         	targetText.text = "Target: " + mathsTarget;
         } 
         else if(currentGameType == 2){
-        	englishTarget = "abc";
+        	englishTarget = englishTargets[Random.Range(0,englishTargets.Count)];
         	targetText.text = "Target: " + englishTarget;
         }
     }
