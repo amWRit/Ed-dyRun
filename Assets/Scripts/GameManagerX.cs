@@ -11,7 +11,7 @@ public class GameManagerX : MonoBehaviour
 	public bool gameOver = false;
 	private bool isGameActive = true;
 	public int currentGameType;
-	public int level;
+	public int level = 1;
 
 	public float speed = 20;
 
@@ -27,7 +27,7 @@ public class GameManagerX : MonoBehaviour
     private List<string> letters = new List<string>() {"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p",
 														"q", "r", "s", "t", "u", "v", "w", "x", "y", "z"}; 
 	private List<string> englishTargets = new List<string>() {"apple", "ball", "cat", "dog", "egg", "fan", "goat", "hen", "iron", "jug", "key", "lamp", "mouse", "nose", "orange", "puppy",
-														"queen", "rat", "snake", "tiger", "umbrella", "van", "watch", "xray", "yak", "zebra"};
+														"queen", "rat", "snake", "tiger", "uncle", "van", "watch", "xray", "yak", "zebra"};
 
     private float mathResult = 0.0f;
     private string englishResult;
@@ -39,6 +39,10 @@ public class GameManagerX : MonoBehaviour
     private float mathsTarget;
     private string englishTarget = "";
     private float score;
+
+    public List<char> englishTargetLiterals = new List<char>(){};
+    public int alphabetIndex;
+    public int literalIndex;
 
     public TextMeshProUGUI gameOverText;
     public GameObject titleScreen;
@@ -69,6 +73,8 @@ public class GameManagerX : MonoBehaviour
         if (Input.GetKey(KeyCode.C) && !gameOver){;
             englishResult = "";
             resultText.text = "Result: ";
+            literalIndex = 0;
+            mathResult = 0;
         }
     }
 
@@ -95,6 +101,8 @@ public class GameManagerX : MonoBehaviour
         	operationText.gameObject.SetActive(false);
         }
 
+        if(level == 1)
+        	literalIndex = 0;
         StartCoroutine(SpawnObstacle());
     }
 
@@ -127,7 +135,7 @@ public class GameManagerX : MonoBehaviour
                 obstacleIndex = Random.Range(0, numberPrefabs.Length);
                 obstacle = numberPrefabs[obstacleIndex];
                 spawnPos = obstacle.transform.position;
-                // spawnPos.z = Random.Range(-6,10);
+                spawnPos.z = Random.Range(-10,5);
             } 
             // spawn math operations
             else if(spawnRandom > 1 && spawnRandom < 4 && currentGameType == 1) {
@@ -138,12 +146,26 @@ public class GameManagerX : MonoBehaviour
             	}
                 obstacle = mathOperationPrefabs[obstacleIndex];
                 spawnPos = obstacle.transform.position;
+                spawnPos.z = Random.Range(-9,6);
             }
             // spawn letters
             else if(spawnRandom >= 3 && currentGameType == 2) {
-                obstacleIndex = Random.Range(0, letterPrefabs.Length);
+            	if(level == 1){
+            		alphabetIndex = (int) englishTargetLiterals[literalIndex] % 32;
+            		obstacleIndex = alphabetIndex - 1;
+            	} else if( level == 2){
+            		literalIndex = Random.Range(0, englishTargetLiterals.Count);
+            		alphabetIndex = (int) englishTargetLiterals[literalIndex] % 32;
+            		obstacleIndex = alphabetIndex - 1;
+            	}
+            	else {
+                	obstacleIndex = Random.Range(0, letterPrefabs.Length);
+            	}
                 obstacle = letterPrefabs[obstacleIndex];
                 spawnPos = obstacle.transform.position;
+                //spawnPos.z = spawnPos.z + Random.Range(-3,3);
+                //spawnPos.z = Random.Range(1,17);
+                //literalIndex += 1;
             }
 
             //spawn enemy obstacles
@@ -192,6 +214,10 @@ public class GameManagerX : MonoBehaviour
 
                 if(mathResult == mathsTarget){
                 	Score();
+                	levelChange();
+                	CalculateTarget();
+    				mathResult = 0;
+    				resultText.text = "Result: ";
                 }
             }
         }    
@@ -256,15 +282,33 @@ public class GameManagerX : MonoBehaviour
         else if(currentGameType == 2){
         	englishTarget = englishTargets[Random.Range(0,englishTargets.Count)];
         	targetText.text = "Target: " + englishTarget;
+        	englishTargetLiterals = new List<char>(){};
+
+        	for(int i=0; i < englishTarget.Length; i++){
+        		englishTargetLiterals.Add(englishTarget[i]);
+        	}
         }
     }
 
     private void LetterOperation(string tag){
     	englishResult += tag;
     	resultText.text = "Result: " + englishResult;
+    	ChangeLiteralIndex(tag);
     	Debug.Log(englishResult);
     	if(string.Equals(englishTarget, englishResult)){
     		Score();
+    		levelChange();
+    		literalIndex = 0;
+    		CalculateTarget();
+    		englishResult = "";
+    		resultText.text = "Result: ";
+    	}
+    }
+
+    private void ChangeLiteralIndex(string tag){
+    	if(string.Equals(englishTargetLiterals[literalIndex].ToString(), tag)){
+    		if(level == 1 && literalIndex < englishTargetLiterals.Count - 1)
+    			literalIndex += 1;
     	}
     }
 
@@ -274,6 +318,15 @@ public class GameManagerX : MonoBehaviour
         score += 1 * level;
         scoreText.text = "Score: " + score;
         speed += 5;
-        speedText.text = "Score: " + speed;               
+        speedText.text = "Speed: " + speed;               
+    }
+
+    private void levelChange(){
+    	int scoreLimit = 0;
+    	scoreLimit = currentGameType == 1 ? 0 : 1;
+    	if(score > scoreLimit){
+    	 	level += 1;
+    	 	levelText.text = "Level: " + level; 
+    	}
     }
 }
