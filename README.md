@@ -45,16 +45,16 @@ There are two options of the play state.
 - The numbers are spawned randomly. The player has to use the arithmetic operator and numbers to reach that target.
 
 #### There are 4 levels.
-- _Level 1_
+- _Level 1_ :
 Only ADD operator is spawned. So the player has to use numbers in such a way that they add up to the given target.
 
-- _Level 2_
+- _Level 2_ :
 ADD and SUBTRACT operators are spawned. The player has to think and pick numbers and operators such that the result is equal to the given target.
 
-- _Level 3_
+- _Level 3_ :
 ADD, SUBTRACT and MULTIPLY operators are spawned. The player has to think and pick numbers and operators such that the result is equal to the given target.
 
-- _Level 4_
+- _Level 4_ :
 ADD, SUBTRACT, MULTIPLY and DIVIDE operators are spawned. The player has to think and pick numbers and operators such that the result is equal to the given target.
 
 
@@ -62,13 +62,13 @@ ADD, SUBTRACT, MULTIPLY and DIVIDE operators are spawned. The player has to thin
 A target word is given. Currently there are 26 words, one each from A through Z. Let's say the target word is DOG. The goal for the player is to pick up alphabets such that they become the target word.
 
 #### There are 3 levels.
-- _Level 1_
+- _Level 1_ : 
 This is a very guided level. In this level, only the alphabets that are in the target word are spawned. So for DOG, first only D is spawned. When the player picks D, then O is spawned. And then G is spawned. 
 
-- _Level 2_
+- _Level 2_ :
 This is a semi guided level. In this level, similar to level 1, only the alphabets that are in the target word are spawned. But they are randomly spawned. So only D, O and G are spawned but randomly. 
 
-- _Level 3_
+- _Level 3_ :
 This is a free level. The alphabets are randomly spawned.
 
 
@@ -80,8 +80,8 @@ After certain score limit, the speed of the game increases. Also the level incre
 The player can press C key to clear the current result and start fresh. 
 
 ## __Game Over State__
-	- The game is over when the player hits with an obstacle on the road and dies. 
-	- The player can use the _restart button_ to restart the game and play again.
+- The game is over when the player hits with an obstacle on the road and dies. 
+- The player can use the _restart button_ to restart the game and play again.
 
 # Assets Used
 The environment assets (road, skydome, mountainbox) and character were downloaded from Unity's official [__Create with Code__](https://learn.unity.com/course/create-with-code) tutorials, which were provided for free to learn.
