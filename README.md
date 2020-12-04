@@ -37,48 +37,48 @@ Player can hit SPACE key to jump in extreme conditions.
 
 # Game Play
 ## __Start State__
-	When the game starts, two game options are shown to the player: MATHS and ENGLISH.
+- When the game starts, two game options are shown to the player: MATHS and ENGLISH.
 
 ## __Play State__
-	There are two options of the play state.
-	- ### __MATHS__
-		A target number is given. For example: 12 
-		The numbers are spawned randomly. The player has to use the arithmetic operator and numbers to reach that target.
+There are two options of the play state.
+### __MATHS__
+- A target number is given. For example: 12 
+- The numbers are spawned randomly. The player has to use the arithmetic operator and numbers to reach that target.
 
-		There are 4 levels.
-		_Level 1_
-		Only ADD operator is spawned. So the player has to use numbers in such a way that they add up to the given target.
+#### There are 4 levels.
+- _Level 1_
+	Only ADD operator is spawned. So the player has to use numbers in such a way that they add up to the given target.
 
-		_Level 2_
-		ADD and SUBTRACT operators are spawned. The player has to think and pick numbers and operators such that the result is equal to the given target.
+-_Level 2_
+	ADD and SUBTRACT operators are spawned. The player has to think and pick numbers and operators such that the result is equal to the given target.
 
-		_Level 3_
-		ADD, SUBTRACT and MULTIPLY operators are spawned. The player has to think and pick numbers and operators such that the result is equal to the given target.
+- _Level 3_
+	ADD, SUBTRACT and MULTIPLY operators are spawned. The player has to think and pick numbers and operators such that the result is equal to the given target.
 
-		_Level 4_
-		ADD, SUBTRACT, MULTIPLY and DIVIDE operators are spawned. The player has to think and pick numbers and operators such that the result is equal to the given target.
-
-
-	- ### __ENGLISH__
-		A target word is given. Currently there are 26 words, one each from A through Z. Let's say the target word is DOG. The goal for the player is to pick up alphabets such that they become the target word.
-
-		There are 3 levels.
-		_Level 1_
-		This is a very guided level. In this level, only the alphabets that are in the target word are spawned. So for DOG, first only D is spawned. When the player picks D, then O is spawned. And then G is spawned. 
-
-		_Level 2_
-		This is a semi guided level. In this level, similar to level 1, only the alphabets that are in the target word are spawned. But they are randomly spawned. So only D, O and G are spawned but randomly. 
-
-		_Level 3_
-		This is a free level. The alphabets are randomly spawned.
+- _Level 4_
+	ADD, SUBTRACT, MULTIPLY and DIVIDE operators are spawned. The player has to think and pick numbers and operators such that the result is equal to the given target.
 
 
-	- ### SCORING
-		Score increases when the Maths number result or English word result is equal to the target given. 
-		After certain score limit, the speed of the game increases. Also the level increases.
+### __ENGLISH__
+A target word is given. Currently there are 26 words, one each from A through Z. Let's say the target word is DOG. The goal for the player is to pick up alphabets such that they become the target word.
 
-	- ### CLEARING RESULT
-		The player can press C key to clear the current result and start fresh. 
+#### There are 3 levels.
+- _Level 1_
+	This is a very guided level. In this level, only the alphabets that are in the target word are spawned. So for DOG, first only D is spawned. When the player picks D, then O is spawned. And then G is spawned. 
+
+- _Level 2_
+	This is a semi guided level. In this level, similar to level 1, only the alphabets that are in the target word are spawned. But they are randomly spawned. So only D, O and G are spawned but randomly. 
+
+- _Level 3_
+	This is a free level. The alphabets are randomly spawned.
+
+
+### SCORING
+Score increases when the Maths number result or English word result is equal to the target given. 
+After certain score limit, the speed of the game increases. Also the level increases.
+
+### CLEARING RESULT
+The player can press C key to clear the current result and start fresh. 
 
 ## __Game Over State__
 	- The game is over when the player hits with an obstacle on the road and dies. 
