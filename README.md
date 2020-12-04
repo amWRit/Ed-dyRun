@@ -4,8 +4,7 @@
 
 As part of learning through __Harvard's CS50G "Introduction to Game Development"__ course, I created this __Ed-dy Run__ game using Unity and Blender.
 
-__Unity 2020.2.0b7__
-__Blender 2.90.1__
+__Unity 2020.2.0b7__ || __Blender 2.90.1__
 
 # Background
 I am from a CS background but I currently work in Education and teach programming to middle grade students in public schools of Nepal. Being from an Ed-Tech sector, the project idea hanging in my mind from the initial days (when I started the course) was that I wanted to make a game for small kids that teaches them some subject ideas or concepts. 
@@ -49,7 +48,7 @@ There are two options of the play state.
 - _Level 1_
 	Only ADD operator is spawned. So the player has to use numbers in such a way that they add up to the given target.
 
--_Level 2_
+- _Level 2_
 	ADD and SUBTRACT operators are spawned. The player has to think and pick numbers and operators such that the result is equal to the given target.
 
 - _Level 3_
@@ -85,9 +84,9 @@ The player can press C key to clear the current result and start fresh.
 	- The player can use the _restart button_ to restart the game and play again.
 
 # Assets Used
-The environment assets (road, skydome, mountainbox) and character were downloaded from Unity's official __Create with Code__ tutorials, which were provided for free to learn.
+The environment assets (road, skydome, mountainbox) and character were downloaded from Unity's official [__Create with Code__](https://learn.unity.com/course/create-with-code) tutorials, which were provided for free to learn.
 
-The numbers, operations and alphabet models were modeled using [TinkerCAD](https://www.tinkercad.com "TinkerCAD").
+The numbers, operations and alphabet models were modeled using [__TinkerCAD__](https://www.tinkercad.com "TinkerCAD").
 
 # Cool Effects Used
 ## Animation
