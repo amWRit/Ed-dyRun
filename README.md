@@ -1,5 +1,7 @@
 # amWRit
 
+![alt text](https://github.com/me50/amWRit/blob/games50/assignments/2020/x/final/game_screenshots/game_english.PNG "Ed-dy Run | amWRit")
+
 # Ed-dy Run
 
 As part of learning through __Harvard's CS50G "Introduction to Game Development"__ course, I created this __Ed-dy Run__ game using Unity and Blender.
@@ -36,11 +38,13 @@ __Saver cheat keys__
 
 # Game Play
 ## __Start State__
+![alt text](https://github.com/me50/amWRit/blob/games50/assignments/2020/x/final/game_screenshots/start.PNG "Start State")
 - When the game starts, two game options are shown to the player: MATHS and ENGLISH.
 
 ## __Play State__
 There are two options of the play state.
 ### __MATHS__
+![alt text](https://github.com/me50/amWRit/blob/games50/assignments/2020/x/final/game_screenshots/game_maths.PNG "Maths Game State")
 - A target number is given. For example: 12 
 - The numbers are spawned randomly. The player has to use the arithmetic operator and numbers to reach that target.
 
@@ -59,6 +63,7 @@ ADD, SUBTRACT, MULTIPLY and DIVIDE operators are spawned. The player has to thin
 
 
 ### __ENGLISH__
+![alt text](https://github.com/me50/amWRit/blob/games50/assignments/2020/x/final/game_screenshots/game_english.PNG "English Game State")
 A target word is given. Currently there are 26 words, one each from A through Z. Let's say the target word is DOG. The goal for the player is to pick up alphabets such that they become the target word.
 
 #### There are 3 levels.
@@ -80,6 +85,7 @@ After certain score limit, the speed of the game increases. Also the level incre
 The player can press C key to clear the current result and start fresh. 
 
 ## __Game Over State__
+![alt text](https://github.com/me50/amWRit/blob/games50/assignments/2020/x/final/game_screenshots/game_over.PNG "Game Over State")
 - The game is over when the player hits with an obstacle on the road and dies. 
 - The player can use the _restart button_ to restart the game and play again.
 
