@@ -17,7 +17,7 @@ Later as I was close to finishing the Math runner game, I thought of adding Engl
 
 In the English option, the gameplay is similar. The player runs and picks up alphabets. A target is given, which is a simple word. The player has to pick exact alphabets and build up that word like in a scrabble. 
 
-I think it is distinct from the projects that we had done in the course in the sense that it is a scrolling game but from a First person perspective. Also the fact that it is a game directed towards educationg kids making it unique. 
+I think it is distinct from the projects that we had done in the course in the sense that it is a scrolling game but from a First person perspective. Also the fact that it is a game directed towards educating kids makes it unique. 
 
 The complexity of the game lies in the level generation and spawn management where the numbers/operator symbols/alphabets are spawned based on the level. 
 
