@@ -46,16 +46,16 @@ There are two options of the play state.
 
 #### There are 4 levels.
 - _Level 1_
-	Only ADD operator is spawned. So the player has to use numbers in such a way that they add up to the given target.
+Only ADD operator is spawned. So the player has to use numbers in such a way that they add up to the given target.
 
 - _Level 2_
-	ADD and SUBTRACT operators are spawned. The player has to think and pick numbers and operators such that the result is equal to the given target.
+ADD and SUBTRACT operators are spawned. The player has to think and pick numbers and operators such that the result is equal to the given target.
 
 - _Level 3_
-	ADD, SUBTRACT and MULTIPLY operators are spawned. The player has to think and pick numbers and operators such that the result is equal to the given target.
+ADD, SUBTRACT and MULTIPLY operators are spawned. The player has to think and pick numbers and operators such that the result is equal to the given target.
 
 - _Level 4_
-	ADD, SUBTRACT, MULTIPLY and DIVIDE operators are spawned. The player has to think and pick numbers and operators such that the result is equal to the given target.
+ADD, SUBTRACT, MULTIPLY and DIVIDE operators are spawned. The player has to think and pick numbers and operators such that the result is equal to the given target.
 
 
 ### __ENGLISH__
@@ -63,13 +63,13 @@ A target word is given. Currently there are 26 words, one each from A through Z.
 
 #### There are 3 levels.
 - _Level 1_
-	This is a very guided level. In this level, only the alphabets that are in the target word are spawned. So for DOG, first only D is spawned. When the player picks D, then O is spawned. And then G is spawned. 
+This is a very guided level. In this level, only the alphabets that are in the target word are spawned. So for DOG, first only D is spawned. When the player picks D, then O is spawned. And then G is spawned. 
 
 - _Level 2_
-	This is a semi guided level. In this level, similar to level 1, only the alphabets that are in the target word are spawned. But they are randomly spawned. So only D, O and G are spawned but randomly. 
+This is a semi guided level. In this level, similar to level 1, only the alphabets that are in the target word are spawned. But they are randomly spawned. So only D, O and G are spawned but randomly. 
 
 - _Level 3_
-	This is a free level. The alphabets are randomly spawned.
+This is a free level. The alphabets are randomly spawned.
 
 
 ### SCORING
