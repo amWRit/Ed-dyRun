@@ -64,7 +64,8 @@ ADD, SUBTRACT, MULTIPLY and DIVIDE operators are spawned. The player has to thin
 
 ### __ENGLISH__
 ![alt text](https://github.com/me50/amWRit/blob/games50/assignments/2020/x/final/game_screenshots/game_english.PNG "English Game State")
-A target word is given. Currently there are 26 words, one each from A through Z. Let's say the target word is DOG. The goal for the player is to pick up alphabets such that they become the target word.
+- A target word is given. Currently there are 26 words, one each from A through Z. 
+- Let's say the target word is DOG. The goal for the player is to pick up alphabets such that they become the target word.
 
 #### There are 3 levels.
 - _Level 1_ : 
@@ -105,7 +106,7 @@ The numbers, operations and alphabet models were modeled using [__TinkerCAD__](h
 	- explosion effect when player collides with an obstacle
 
 ## Sound effect
-	- background music continuosly player
+	- background music continuously playing
 	- sound effects when player picks up numbers/alphabets/operators or collides with obstacle
 
 # Future Features
