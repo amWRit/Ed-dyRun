@@ -2462,7 +2462,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameOver: 0
   currentGameType: 0
-  level: 1
+  level: 2
   speed: 30
   operationText: {fileID: 1794024405}
   resultText: {fileID: 936511672}
@@ -2479,16 +2479,16 @@ MonoBehaviour:
   scoreSound: {fileID: 8300000, guid: af9f934eb4288464eb120a5857921cc3, type: 3}
   scoreParticle: {fileID: 19860484, guid: 6586ff0f14125534cae2f5d8f04b7871, type: 3}
   numberPrefabs:
-  - {fileID: 4182917255651456024, guid: f4b240c0df4a0704ba1c12d168d46d54, type: 3}
-  - {fileID: 1863141569468869921, guid: d2a25a9e448b81a41b39c3ecccbf476f, type: 3}
-  - {fileID: 4949578537213720431, guid: c44bddcefbd68a646af1660facc42cd5, type: 3}
-  - {fileID: 4028634080650427639, guid: 6e1bfc0c3c6feef4aa63b36a5c1988e7, type: 3}
-  - {fileID: 687486590896709264, guid: 99a851ba07ad4004fa4213d97f5811e2, type: 3}
-  - {fileID: 7346524802200099811, guid: a73b5cdc1bb413f40a5aabfe377d975b, type: 3}
-  - {fileID: 7000742915099532581, guid: ad31ea7efb029ce4d861330d170fe152, type: 3}
-  - {fileID: 5207363780380831624, guid: ed9604a41d0ee444ca36ab11263ba611, type: 3}
-  - {fileID: 6133242848151008814, guid: e68a191492d269d469860bb3a024f268, type: 3}
-  - {fileID: 4993588167669038416, guid: 5e8295551aedfe845bd194cc6d1a6306, type: 3}
+  - {fileID: 1546412171389987244, guid: f4b240c0df4a0704ba1c12d168d46d54, type: 3}
+  - {fileID: 3705207138304808260, guid: d2a25a9e448b81a41b39c3ecccbf476f, type: 3}
+  - {fileID: 7900509622774317009, guid: c44bddcefbd68a646af1660facc42cd5, type: 3}
+  - {fileID: 8450497284954320719, guid: 6e1bfc0c3c6feef4aa63b36a5c1988e7, type: 3}
+  - {fileID: 4867728225448804909, guid: 99a851ba07ad4004fa4213d97f5811e2, type: 3}
+  - {fileID: 1165354752317780089, guid: a73b5cdc1bb413f40a5aabfe377d975b, type: 3}
+  - {fileID: 2390145852918421712, guid: ad31ea7efb029ce4d861330d170fe152, type: 3}
+  - {fileID: 377514409968729072, guid: ed9604a41d0ee444ca36ab11263ba611, type: 3}
+  - {fileID: 2864666023401132713, guid: e68a191492d269d469860bb3a024f268, type: 3}
+  - {fileID: 8639039658599382026, guid: 5e8295551aedfe845bd194cc6d1a6306, type: 3}
   enemyPrefabs:
   - {fileID: 11368019182273911, guid: 1db47c5ef25154fb1806822c25335042, type: 3}
   - {fileID: 6257972318300281179, guid: 8f5cf4a4836a66a4d8f851f4a7903795, type: 3}
@@ -2500,7 +2500,7 @@ MonoBehaviour:
   - {fileID: 8251585273598732395, guid: aa9f70cd2df797d4db94ce544ae15267, type: 3}
   letterPrefabs:
   - {fileID: 6347737633880293506, guid: 3f675665e10426548b87f927560ad321, type: 3}
-  - {fileID: 2255880813606012663, guid: 5cf5015d438c73d43871662a39ba793a, type: 3}
+  - {fileID: 7334010245778705301, guid: 5cf5015d438c73d43871662a39ba793a, type: 3}
   - {fileID: 1320959509140950637, guid: 3d9a623964e5575449b5b5f4e523fa84, type: 3}
   - {fileID: 1764390047962523322, guid: 2d2223ca3595d8349949305e08db7720, type: 3}
   - {fileID: 5961043214073308671, guid: 57eb4156680b31745a40db84139af0f6, type: 3}

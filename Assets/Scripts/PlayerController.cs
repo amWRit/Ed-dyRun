@@ -33,7 +33,6 @@ public class PlayerController : MonoBehaviour
     private List<string> mathNumbers = new List<string>() {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"}; 
     private List<string> mathOperations = new List<string>() {"add", "sub", "mul", "div"}; 
 
-
     // Start is called before the first frame update
     void Start()
     {
@@ -52,6 +51,7 @@ public class PlayerController : MonoBehaviour
     {
         bool gameOver = gameManagerController.gameOver;
         Vector3 startPos = transform.position;
+
         if (Input.GetKeyDown(KeyCode.Space) && !gameOver){
         	playerRb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
         	isOnGround = false;
@@ -62,7 +62,6 @@ public class PlayerController : MonoBehaviour
 
 
         if (Input.GetKey(KeyCode.RightArrow) && !gameOver && transform.position.z > -7.5){
-            //transform.position = Vector3.Lerp(startPos, startPos + transform.right * slideForce, 10 * Time.deltaTime);
             transform.Translate(Vector3.right * Time.deltaTime * slideForce);
         }
 
@@ -77,13 +76,13 @@ public class PlayerController : MonoBehaviour
     }
 
     private void OnCollisionEnter (Collision collision){
+
     	if (collision.gameObject.CompareTag("Ground")){
     		isOnGround = true;
     		dirtParticle.Play();
     	} else if (collision.gameObject.CompareTag("Obstacle")) {
     		gameManagerController.gameOver = true;
             gameManagerController.GameOver();
-    		Debug.Log("Game Over");
     		playerAnim.SetBool("Death_b", true);
     		playerAnim.SetInteger("DeathType_int", 1);
     		explosionParticle.Play();
@@ -94,8 +93,8 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        // perform maths or english operation based on the tag of the collided object
         gameManagerController.TargetOperation(other.tag); 
-
         playerAudio.PlayOneShot(eatSound, 1.0f);
         Destroy(other.gameObject);
     }

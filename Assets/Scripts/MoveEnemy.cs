@@ -2,11 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// Move enemy obstacles (boxes, bombs etc) across the road
 public class MoveEnemy : MonoBehaviour
 {
-	//private float speed = 30;
 	private GameManagerX gameManagerController;
 	private float leftBound = -10;
+
     // Start is called before the first frame update
     void Start()
     {
