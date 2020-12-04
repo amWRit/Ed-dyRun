@@ -31,8 +31,8 @@ The player dies if it hits with an obstacle and the game is over.
 After a certain score, the level increases and the game play becomes difficult by the random spawning of required numbers/operator symbols/alphabets.
 
 __Saver cheat keys__
-	- Player can hit C key to clear the current result.
-	- Player can hit SPACE key to jump in extreme conditions.
+- Player can hit C key to clear the current result.
+- Player can hit SPACE key to jump in extreme conditions.
 
 # Game Play
 ## __Start State__
