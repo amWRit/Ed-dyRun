@@ -28,13 +28,14 @@ Player can use __LEFT/RIGHT arrow keys__ to move left and right to avoid the obs
 
 A target is given. And the player has to reach that target by picking up required numbers/operator symbols/alphabets. 
 The player scores when the target is met. Also the speed increases after reaching a certain score limit.
-The player dies if it hits with an obstacle and the game is over.
+The player has 4 health points. Health is decreased by one point if the player collides with enemy obstacles. The game is over when the health become zero.
 
 After a certain score, the level increases and the game play becomes difficult by the random spawning of required numbers/operator symbols/alphabets.
 
 __Saver cheat keys__
 - Player can hit C key to clear the current result.
 - Player can hit SPACE key to jump in extreme conditions.
+- Player can use DOWN key to come down after the jump.
 
 # Game Play
 ## __Start State__
@@ -82,12 +83,17 @@ This is a free level. The alphabets are randomly spawned.
 Score increases when the Maths number result or English word result is equal to the target given. 
 After certain score limit, the speed of the game increases. Also the level increases.
 
+### HEALTH SYSTEM
+The player has 4 health points. 
+Health is decreased by one point if the player collides with enemy obstacles. 
+The game is over when the health become zero.
+
 ### CLEARING RESULT
 The player can press C key to clear the current result and start fresh. 
 
 ## __Game Over State__
 ![alt text](https://github.com/me50/amWRit/blob/games50/assignments/2020/x/final/game_screenshots/game_over.PNG "Game Over State")
-- The game is over when the player hits with an obstacle on the road and dies. 
+- The game is over when the health of the player become zero.
 - The player can use the _restart button_ to restart the game and play again.
 
 # Assets Used
