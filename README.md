@@ -28,6 +28,7 @@ Player can use __LEFT/RIGHT arrow keys__ to move left and right to avoid the obs
 
 A target is given. And the player has to reach that target by picking up required numbers/operator symbols/alphabets. 
 The player scores when the target is met. Also the speed increases after reaching a certain score limit.
+
 The player has 4 health points. Health is decreased by one point if the player collides with enemy obstacles. The game is over when the health become zero.
 
 After a certain score, the level increases and the game play becomes difficult by the random spawning of required numbers/operator symbols/alphabets.
@@ -100,6 +101,8 @@ The player can press C key to clear the current result and start fresh.
 The environment assets (road, skydome, mountainbox) and character were downloaded from Unity's official [__Create with Code__](https://learn.unity.com/course/create-with-code) tutorials, which were provided for free to learn.
 
 The numbers, operations and alphabet models were modeled using [__TinkerCAD__](https://www.tinkercad.com "TinkerCAD").
+
+Assets for the healthbar were downloaded and use from [__Brackeys Project__](https://github.com/Brackeys/Health-Bar/tree/master/Health%20Bar/Assets/Sprites)
 
 # Cool Effects Used
 ## Animation
