@@ -55,6 +55,7 @@ public class GameManagerX : MonoBehaviour
     public TextMeshProUGUI gameOverText;
     public GameObject titleScreen;
     public Button restartButton;
+    public GameObject healthBar;
 
 	private AudioSource playerAudio; 
     public AudioClip scoreSound;
@@ -73,6 +74,7 @@ public class GameManagerX : MonoBehaviour
         playerAudio = GetComponent<AudioSource>();
         speedText.text = "Speed: " + speed;
         levelText.text = "Level: " + level;
+
     }
 
     // Update is called once per frame
@@ -101,6 +103,7 @@ public class GameManagerX : MonoBehaviour
         scoreText.gameObject.SetActive(true);
         speedText.gameObject.SetActive(true);
         levelText.gameObject.SetActive(true);
+        healthBar.SetActive(true);
 
         if(gameType == 1){
         	operationText.gameObject.SetActive(true);
