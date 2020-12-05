@@ -115,4 +115,8 @@ public class PlayerController : MonoBehaviour
         healthManager.SetHealth(currentHealth);
     }
 
+    public void IncreaseHealth(int health){
+        currentHealth += health;
+        healthManager.SetHealth(currentHealth);
+    }
 }

@@ -2198,10 +2198,10 @@ RectTransform:
   m_Father: {fileID: 901143802}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.46941176}
+  m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 203, y: -8.5}
-  m_SizeDelta: {x: 160, y: 17}
+  m_AnchoredPosition: {x: 203, y: -16.5}
+  m_SizeDelta: {x: 160, y: 33}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1272302275
 MonoBehaviour:
@@ -2690,7 +2690,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameOver: 0
   currentGameType: 0
-  level: 2
+  level: 1
   speed: 30
   operationText: {fileID: 1794024405}
   resultText: {fileID: 936511672}
@@ -2720,8 +2720,8 @@ MonoBehaviour:
   - {fileID: 8639039658599382026, guid: 5e8295551aedfe845bd194cc6d1a6306, type: 3}
   enemyPrefabs:
   - {fileID: 11368019182273911, guid: 1db47c5ef25154fb1806822c25335042, type: 3}
+  - {fileID: 6589070793059805583, guid: e71b5b81babdc254cbb13017f1053ec0, type: 3}
   - {fileID: 6257972318300281179, guid: 8f5cf4a4836a66a4d8f851f4a7903795, type: 3}
-  - {fileID: 194656, guid: cb04eea70ee14ab49b68d12e2cbbf680, type: 3}
   - {fileID: 4092817763101602455, guid: beeea0e742537b14d83ec8380085628a, type: 3}
   - {fileID: 5235692878769430855, guid: 68c93e28f1c4a2a4dbc59f9446419faa, type: 3}
   - {fileID: 5194693532122812311, guid: 6372a70c2c7bd4f41b2b665fa1bd3632, type: 3}

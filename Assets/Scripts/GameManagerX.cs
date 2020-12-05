@@ -68,6 +68,8 @@ public class GameManagerX : MonoBehaviour
 
 	private Vector3 spawnPos = new Vector3(40, 2, 0);
 
+	private PlayerController playerController;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -75,6 +77,7 @@ public class GameManagerX : MonoBehaviour
         speedText.text = "Speed: " + speed;
         levelText.text = "Level: " + level;
 
+        playerController = GameObject.Find("Player").GetComponent<PlayerController>();
     }
 
     // Update is called once per frame
@@ -138,7 +141,7 @@ public class GameManagerX : MonoBehaviour
             yield return new WaitForSeconds(waitTime);
             int obstacleIndex; //index to get specific prefab from array
             GameObject obstacle; //store obstacle prefab; friendly or enemy
-            int spawnRandom = Random.Range(1,5); //1 to 5
+            int spawnRandom = Random.Range(1,7);
 
 
             //spawn numbers, only in Maths game type -- highest probability
@@ -357,7 +360,11 @@ public class GameManagerX : MonoBehaviour
     	scoreLimit = currentGameType == 1 ? 0 : 1;
     	if(score > scoreLimit){
     	 	level += 1;
-    	 	levelText.text = "Level: " + level; 
+    	 	levelText.text = "Level: " + level;
+
+    	 	if(playerController.currentHealth < playerController.maxHealth){
+    	 		playerController.IncreaseHealth(1);
+    	 	} 
     	}
     }
 }

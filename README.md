@@ -87,6 +87,7 @@ After certain score limit, the speed of the game increases. Also the level incre
 ### HEALTH SYSTEM
 The player has 4 health points. 
 Health is decreased by one point if the player collides with enemy obstacles. 
+Health is increased by one point when level is increased.
 The game is over when the health become zero.
 
 ### CLEARING RESULT
