@@ -119,7 +119,6 @@ Assets for the healthbar were downloaded and use from [__Brackeys Project__](htt
 	- sound effects when player picks up numbers/alphabets/operators or collides with obstacle
 
 # Future Features
-- Player health
 - More subject options like Science
 - Different levels for Maths and English like Grammar, storymaking etc.
 - Choice of Character
