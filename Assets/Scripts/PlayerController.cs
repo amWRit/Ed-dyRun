@@ -14,6 +14,8 @@ public class PlayerController : MonoBehaviour
     public float gravityModifier;
     public float slideForce;
 
+    public int maxHealth = 4;
+    public int currentHealth;
 
     public bool isOnGround = true;  
 
@@ -29,6 +31,7 @@ public class PlayerController : MonoBehaviour
     private AudioSource playerAudio; 
 
     private GameManagerX gameManagerController;
+    public HealthManager healthManager;
 
     private List<string> mathNumbers = new List<string>() {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"}; 
     private List<string> mathOperations = new List<string>() {"add", "sub", "mul", "div"}; 
@@ -36,6 +39,9 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        currentHealth = maxHealth;
+        healthManager.SetMaxHealth(maxHealth);
+
         playerRb = GetComponent<Rigidbody>();
         Physics.gravity *= gravityModifier; 
 
@@ -81,24 +87,32 @@ public class PlayerController : MonoBehaviour
     		isOnGround = true;
     		dirtParticle.Play();
     	} else if (collision.gameObject.CompareTag("Obstacle")) {
-    		gameManagerController.gameOver = true;
-            gameManagerController.GameOver();
-    		playerAnim.SetBool("Death_b", true);
-    		playerAnim.SetInteger("DeathType_int", 1);
-    		explosionParticle.Play();
-    		playerAudio.PlayOneShot(crashSound, 1.0f);
-    		dirtParticle.Stop();
+            TakeDamage(1);
+            playerAudio.PlayOneShot(crashSound, 1.0f);
+            explosionParticle.Play();
+
+            if(currentHealth == 0){
+        		gameManagerController.gameOver = true;
+                gameManagerController.GameOver();
+        		playerAnim.SetBool("Death_b", true);
+        		playerAnim.SetInteger("DeathType_int", 1);
+        		explosionParticle.Play();
+        		dirtParticle.Stop();
+            }
     	}
     }
 
     private void OnTriggerEnter(Collider other)
     {
         // perform maths or english operation based on the tag of the collided object
-        gameManagerController.TargetOperation(other.tag); 
+        gameManagerController.TargetOperation(other.tag);  
         playerAudio.PlayOneShot(eatSound, 1.0f);
         Destroy(other.gameObject);
     }
 
-
+    private void TakeDamage(int damage){
+        currentHealth -= damage;
+        healthManager.SetHealth(currentHealth);
+    }
 
 }
